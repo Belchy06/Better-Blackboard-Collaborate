@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "Better Blackboard Collaborate",
+	"version": "1.0",
+	"description": "Add subway surfers gameplay next to your blackboard stream",
+	"background": { "service_worker": "js/background.js" },
+	"permissions": [
+	  "tabs",
+	  "activeTab",
+	  "scripting"
+	],
+	"host_permissions":["*://au.bbcollab.com/"]
+  }
